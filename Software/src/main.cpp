@@ -143,6 +143,7 @@ time_t prevDisplay = 0; // 显示时间
 unsigned long weaterTime = 0;
 String scrollText[6];
 String ButtonScrollText[8];
+
 //天气信息写到屏幕上
 void weatherData(String *cityDZ,String *dataSK,String *dataFC,String *dataSuggest){
   
@@ -295,14 +296,12 @@ void weatherData(String *cityDZ,String *dataSK,String *dataFC,String *dataSugges
   ButtonScrollText[3] = dataSuggestJson["ct_name"].as<String>() + " " + dataSuggestJson["ct_hint"].as<String>();
   ButtonScrollText[4] = dataSuggestJson["gm_name"].as<String>() + " " + dataSuggestJson["gm_hint"].as<String>();
   ButtonScrollText[5] = dataSuggestJson["ys_name"].as<String>() + " " + dataSuggestJson["ys_hint"].as<String>();
-  ButtonScrollText[6] = dataSuggestJson["pl_name"].as<String>() + " " + dataSuggestJson["pl_hint"].as<String>();
-  ButtonScrollText[7] = dataSuggestJson["co_name"].as<String>() + " " + dataSuggestJson["co_hint"].as<String>();
+  ButtonScrollText[6] = dataSuggestJson["co_name"].as<String>() + " " + dataSuggestJson["co_hint"].as<String>();
 }
 
 // 获取城市天气
 
 void getCityWeater(){
-  //cityCode = "101070201";
   HTTPClient httpClient;
   while(getCityWeaterFlag == false) {
     String URL = "http://d1.weather.com.cn/weather_index/" + cityCode + ".html?_="+String(now());
@@ -323,7 +322,7 @@ void getCityWeater(){
     if (httpCode == HTTP_CODE_OK) {
 
       String str = httpClient.getString();
-      //Serial.println(str);
+      Serial.println(str);
 
       int indexStart = str.indexOf("weatherinfo\":");
       int indexEnd = str.indexOf("};var alarmDZ");
@@ -429,7 +428,7 @@ void ButtonscrollBanner(){
       clkbb.deleteSprite();
       clkbb.unloadFont();
   
-      if(ButtoncurrentIndex>=7){
+      if(ButtoncurrentIndex >= 6){
         ButtoncurrentIndex = 0;  //回第一个
       }else{
         ButtoncurrentIndex += 1;  //准备切换到下一个  
@@ -498,6 +497,7 @@ void imgDisplay(){
     }
   }
 }
+
 /*电量显示*/
 void Battery(){
   uint16_t batteryLevel = analogRead(34);
