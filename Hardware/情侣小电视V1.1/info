@@ -1,0 +1,408 @@
+{
+  "uuid": "64835d3fe0fef24dd815d1db3b7bc9fe",
+  "path": "Offline/%E6%83%85%E4%BE%A3%E5%B0%8F%E7%94%B5%E8%A7%86V1.1",
+  "name": "情侣小电视V1.1",
+  "content": "",
+  "created_at": "2023-03-20 19:56:49",
+  "updated_at": "2023-05-08 16:50:24",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "32eaebe14746f0b6299181b8a4d5ad42",
+      "title": "原理图",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7e3122658d2848ed89e95e44010062f5": 5,
+        "df990e3ff9c74f6891ae36d16d3b5ece": 3,
+        "cee864518ae443f7a8b8d402d5a9fb33": 2,
+        "6fe093f86cef4c9a9ba40ddab74fc292": 1,
+        "011ee46cdc964900a13c320feaf84dfd": 4,
+        "cde519907f0f4d339163c4d8d36af326": 2,
+        "a0780722cc9e4e359bba1cdf6536fc51": 1,
+        "f0d8aca94c4b49a6a74452b5842e0e30": 4,
+        "bcf670808f2a4b5787129e629b51438a": 1,
+        "6d6291fb43fd45d3b298e0818aec400b": 2,
+        "a64f266cf35249028266f77325f37365": 1,
+        "289180d535394a2eb554b07c452771e7": 1,
+        "0463ce88c3624cb5aba0cb5fc240ce7b": 1,
+        "8e48cbbbab214dbbb075f8d92c2706fe": 1,
+        "ef94a8d58c234b61620afe16d965b8a7": 1,
+        "35d884b1282c40308f92ab729968eda2": 1,
+        "fef88ae03f574720bc10d1a1912d3c0b": 2,
+        "eb884369af1e4632a30a76a6047d9974": 1,
+        "40be57da53b14c7dafd9c910a560ab72": 1,
+        "a327b111dff94b53a9c94cd7e423cdb0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "TS24CA",
+          4,
+          "SW-SMD_TS24CA",
+          "BUTTON1,BUTTON2,IO0,RST",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C393942",
+            "BOM_Manufacturer": "SHOU HAN(首韩)",
+            "BOM_Manufacturer Part": "TS24CA",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "6c2b316858004c588db6e8d222fe3d7f",
+            "uuid": "011ee46cdc964900a13c320feaf84dfd"
+          }
+        ],
+        [
+          "100nF",
+          5,
+          "C0603",
+          "C1,C3,C10,C11,C12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C165952",
+            "BOM_Manufacturer": "VISHAY(威世)",
+            "BOM_Manufacturer Part": "VJ0603Y104KXJAC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "7e3122658d2848ed89e95e44010062f5"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C0603",
+          "C2,C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH(风华)",
+            "BOM_Manufacturer Part": "0603X226M100NT",
+            "BOM_Supplier Part": "C60077",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "cee864518ae443f7a8b8d402d5a9fb33"
+          }
+        ],
+        [
+          "10uF",
+          4,
+          "C0603",
+          "C4,C6,C8,C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C86275",
+            "BOM_Manufacturer": "muRata(村田)",
+            "BOM_Manufacturer Part": "GRM188R61C106KAALD",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "f0d8aca94c4b49a6a74452b5842e0e30"
+          }
+        ],
+        [
+          "KH-FG0.5-H2.0-24PIN",
+          1,
+          "FPC-SMD_KH-FG0.5-H2.0-24PIN",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2797213",
+            "BOM_Manufacturer": "kinghelm(金航标)",
+            "BOM_Manufacturer Part": "KH-FG0.5-H2.0-24PIN",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "04accec5683342f89acb7237a134d2ad",
+            "uuid": "a0780722cc9e4e359bba1cdf6536fc51"
+          }
+        ],
+        [
+          "UMH3NTN",
+          1,
+          "SOT-363_L2.0-W1.3-P0.65-LS2.1-TL",
+          "Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ROHM(罗姆)",
+            "BOM_Manufacturer Part": "UMH3NTN",
+            "BOM_Supplier Part": "C123008",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "62a4fc4b5aa04ba480f679328de41d97",
+            "uuid": "eb884369af1e4632a30a76a6047d9974"
+          }
+        ],
+        [
+          "10kΩ",
+          3,
+          "R0603",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C380762",
+            "BOM_Manufacturer": "SANYEAR(叁叶源)",
+            "BOM_Manufacturer Part": "SY0603JN10KP",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "df990e3ff9c74f6891ae36d16d3b5ece"
+          }
+        ],
+        [
+          "4.7kΩ",
+          2,
+          "R0603",
+          "R4,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269713",
+            "BOM_Manufacturer": "Tyohm(幸亚电阻)",
+            "BOM_Manufacturer Part": "RMC06034K7FN",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "cde519907f0f4d339163c4d8d36af326"
+          }
+        ],
+        [
+          "2K",
+          1,
+          "R0603",
+          "R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C125933",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "AC0603FR-072KL",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "a64f266cf35249028266f77325f37365"
+          }
+        ],
+        [
+          "300kΩ",
+          1,
+          "R0603",
+          "R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C319969",
+            "BOM_Manufacturer": "Viking(光颉)",
+            "BOM_Manufacturer Part": "AR03BTCX1003",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "fef88ae03f574720bc10d1a1912d3c0b"
+          }
+        ],
+        [
+          "4.7kΩ",
+          1,
+          "R0603",
+          "R9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C325597",
+            "BOM_Manufacturer": "Tyohm(幸亚电阻)",
+            "BOM_Manufacturer Part": "RMC06031.2K1%N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "0463ce88c3624cb5aba0cb5fc240ce7b"
+          }
+        ],
+        [
+          "10Ω",
+          1,
+          "R0603",
+          "R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
+            "BOM_Manufacturer Part": "0603WAF100JT5E",
+            "BOM_Supplier Part": "C22859",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "ef94a8d58c234b61620afe16d965b8a7"
+          }
+        ],
+        [
+          "100kΩ",
+          1,
+          "R0603",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C319969",
+            "BOM_Manufacturer": "Viking(光颉)",
+            "BOM_Manufacturer Part": "AR03BTCX1003",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "fef88ae03f574720bc10d1a1912d3c0b"
+          }
+        ],
+        [
+          "JS102011SAQN",
+          1,
+          "SW-SMD_JS102011SAQN",
+          "SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C221660",
+            "BOM_Manufacturer": "C&K",
+            "BOM_Manufacturer Part": "JS102011SAQN",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b7a6392260014b9c95a600949f5b2592",
+            "uuid": "35d884b1282c40308f92ab729968eda2"
+          }
+        ],
+        [
+          "ESP32-WROOM-32E-N16",
+          1,
+          "WIFI-SMD_ESP32-WROOM-32E",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2973650",
+            "BOM_Manufacturer": "ESPRESSIF 乐鑫",
+            "BOM_Manufacturer Part": "ESP32-WROOM-32E-N16",
+            "puuid": "febebcac3bf6481f9b9f64b8a412bfb8",
+            "uuid": "6fe093f86cef4c9a9ba40ddab74fc292"
+          }
+        ],
+        [
+          "BL9110-330BPFB",
+          1,
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BL(上海贝岭)",
+            "BOM_Manufacturer Part": "BL9110-330BPFB",
+            "BOM_Supplier Part": "C169246",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "a327b111dff94b53a9c94cd7e423cdb0"
+          }
+        ],
+        [
+          "CH340K",
+          1,
+          "CH340K",
+          "U3",
+          {
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "C968586",
+            "BOM_Manufacturer": "WCH(南京沁恒)",
+            "BOM_Manufacturer Part": "CH340K",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "37aaa7d2b3614f2899bc58234cd0abcf",
+            "uuid": "40be57da53b14c7dafd9c910a560ab72"
+          }
+        ],
+        [
+          "TP4056_C5311018",
+          1,
+          "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+          "U8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C5311018",
+            "BOM_Manufacturer": "TECH PUBLIC(台舟)",
+            "BOM_Manufacturer Part": "TP4056",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7568fee05bc44581b2c32625ae15b3f8",
+            "uuid": "8e48cbbbab214dbbb075f8d92c2706fe"
+          }
+        ],
+        [
+          "U-F-M5DS-Y-1",
+          1,
+          "MICRO-USB-SMD_U-F-M5DS-Y-1",
+          "USB2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "韩国韩荣",
+            "BOM_Manufacturer Part": "U-F-M5DS-Y-1",
+            "BOM_Supplier Part": "C106818",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7ef0192927184a0ca10e72d3ae683a9d",
+            "uuid": "bcf670808f2a4b5787129e629b51438a"
+          }
+        ]
+      ],
+      "updateTime": 1680271154,
+      "createTime": 1679313474,
+      "histories": [],
+      "created_at": "2023-03-20 19:57:54",
+      "updated_at": "2023-03-31 21:59:14"
+    },
+    {
+      "uuid": "1cb880ef99afc0272642b786dd23037b",
+      "puuid": "64835d3fe0fef24dd815d1db3b7bc9fe",
+      "title": "PCB_情侣小电视V1.1.1",
+      "filename": "PCB_情侣小电视V1.1.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 11,
+        "398691f1f785460098bbe5ee6590333c": 10,
+        "b7a6392260014b9c95a600949f5b2592": 1,
+        "7af2e38f4f0b46a68740568787d02bf8": 2,
+        "7ef0192927184a0ca10e72d3ae683a9d": 1,
+        "6c2b316858004c588db6e8d222fe3d7f": 4,
+        "febebcac3bf6481f9b9f64b8a412bfb8": 1,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 1,
+        "04accec5683342f89acb7237a134d2ad": 1,
+        "62a4fc4b5aa04ba480f679328de41d97": 1,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "7568fee05bc44581b2c32625ae15b3f8": 1,
+        "37aaa7d2b3614f2899bc58234cd0abcf": 1
+      },
+      "BOM": [],
+      "updateTime": 1681730455,
+      "createTime": 1679838179,
+      "histories": [],
+      "created_at": "2023-03-26 21:42:59",
+      "updated_at": "2023-04-17 19:20:55"
+    },
+    {
+      "uuid": "4d937b890280e04b679636e598b85531",
+      "title": "PCB_情侣小电视V1.1.0",
+      "filename": "PCB_情侣小电视V1.1.0.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "398691f1f785460098bbe5ee6590333c": 10,
+        "f8151fdc728a41ebbc304e11d39e5437": 10,
+        "04accec5683342f89acb7237a134d2ad": 1,
+        "62a4fc4b5aa04ba480f679328de41d97": 1,
+        "02ae667aca734971be8a5f58143dd564": 1,
+        "7af2e38f4f0b46a68740568787d02bf8": 2,
+        "7568fee05bc44581b2c32625ae15b3f8": 1,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 1,
+        "b7a6392260014b9c95a600949f5b2592": 1,
+        "7ef0192927184a0ca10e72d3ae683a9d": 1,
+        "6c2b316858004c588db6e8d222fe3d7f": 4,
+        "37aaa7d2b3614f2899bc58234cd0abcf": 1,
+        "febebcac3bf6481f9b9f64b8a412bfb8": 1
+      },
+      "BOM": [],
+      "updateTime": 1681828990,
+      "createTime": 1681828990,
+      "histories": [],
+      "created_at": "2023-04-18 22:43:10",
+      "updated_at": "2023-04-18 22:43:10"
+    }
+  ],
+  "sort": [
+    "fd126d900f5d33fa128f431908e7b617",
+    "32eaebe14746f0b6299181b8a4d5ad42"
+  ],
+  "title": "情侣小电视V1.1",
+  "foldername": "情侣小电视V1.1",
+  "schfilename": "情侣小电视V1.1.json",
+  "schfilemtime": 1683535824980
+}
