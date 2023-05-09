@@ -64,6 +64,7 @@ uint16_t weatherCode = 99;  //根据数值决定显示那种天气图标，在we
 bool getCityWeaterFlag = false;
 
 byte Mode = 1;
+byte flag = 0;
 
 bool tft_output(int16_t x, int16_t y, uint16_t w, uint16_t h, uint16_t* bitmap)
 {
@@ -659,12 +660,11 @@ void sendNTPpacket(IPAddress &address)
 }
 
 void leftButtonCallBack(void){  //左按钮中断回调函数
-  if(Mode == 1){
-    Mode = 4;
-  }else{
-    Mode --;
+  flag ++;
+  if(flag == 2){
+    ESP.restart(); //按第二次时重启
   }
-  Serial.println(Mode);
+  Serial.println(flag);  
 }
 
 void rightButtonCallBack(void){ //右按钮中断回调函数
@@ -777,5 +777,8 @@ void loop(){
   scrollBanner();
   ButtonscrollBanner();
   imgDisplay();
-
+  //左按钮被按下时，进入配网模式
+  if(flag == 1){
+    setWiFi(); //按第一次时配网
+  }
 }
