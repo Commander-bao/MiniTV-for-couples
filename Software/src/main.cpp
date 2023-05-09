@@ -8,7 +8,7 @@ String PrefSSID, PrefPassword, City;
 #include <SPI.h>
 #include <EEPROM.h> //带电可擦除可编程只读存储器
 #include <TJpg_Decoder.h> //JPG图像显示库
-/*使用Tjpg_Decoder库创建C数组图片的网址: http://tomeko.net/online_tools/file_to_hex.php?lang=en*/
+/*使用Tjpg_Decoder库创建C数组图片的网址: http://tom为eko.net/online_tools/file_to_hex.php?lang=en*/
 
 #include <WiFi.h> //使用WiFi功能
 #include <WiFiUdp.h>
@@ -502,13 +502,13 @@ void imgDisplay(){
 void Battery(){
   uint16_t batteryLevel = analogRead(34);
   if(batteryLevel >= 1050){
-    TJpgDec.drawJpg(185,110,battery0, sizeof(battery0));
+    TJpgDec.drawJpg(190,113,battery0, sizeof(battery0));
   }else if(batteryLevel >= 970){
-    TJpgDec.drawJpg(185,110,battery1, sizeof(battery1));
+    TJpgDec.drawJpg(190,113,battery1, sizeof(battery1));
   }else if(batteryLevel >= 890){
-    TJpgDec.drawJpg(185,110,battery2, sizeof(battery2));
+    TJpgDec.drawJpg(190,113,battery2, sizeof(battery2));
   }else{
-    TJpgDec.drawJpg(185,110,battery3, sizeof(battery3));
+    TJpgDec.drawJpg(190,113,battery3, sizeof(battery3));
   }
 }
 
@@ -664,7 +664,7 @@ void leftButtonCallBack(void){  //左按钮中断回调函数
   }else{
     Mode --;
   }
-  //Serial.println(Mode);
+  Serial.println(Mode);
 }
 
 void rightButtonCallBack(void){ //右按钮中断回调函数
@@ -673,7 +673,7 @@ void rightButtonCallBack(void){ //右按钮中断回调函数
   }else{
     Mode ++;
   }
-  //Serial.println(Mode);
+  Serial.println(Mode);
 }
 
 void setup(){
@@ -771,7 +771,6 @@ void loop(){
     weaterTime = millis();
     getCityWeater();
     Battery();
-    //Serial.println(analogRead(34));
     EEPROM.write(0,Mode);
     EEPROM.commit();
   }
