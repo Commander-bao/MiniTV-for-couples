@@ -6,7 +6,7 @@
 ## 1.硬件打样说明
 最新版本的PCB制板文件在Hardware/情侣小电视V1.2目录下，可在嘉立创平台上进行免费打样
 ![](Images/PCB1.jpg)![](Images/PCB2.jpg)
-最新版本的外壳文件在3D Model文件夹下，需要注意的是：如果不使用fdm的打印机而使用光固化打印机，请选择高精度文件
+最新版本的外壳文件在3D Model文件夹下，需要注意的是：如果不使用fdm打印机而使用光固化打印机，请选择高精度文件
 ![](Images/3DModel1.jpg)![](Images/3DModel2.jpg)
 ## 2.固件编译说明
 本项目基于VSCode上的PlatformIO插件开发，工程文件放置在Software文件夹下，复制到自己本地的PlatformIO工程目录下即可打开
