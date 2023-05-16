@@ -2,13 +2,13 @@
 #include <TimeLib.h>
 #include <Preferences.h> //用于保存数据
 Preferences preferences;
-String PrefSSID, PrefPassword, City;
+String PrefSSID, PrefPassword, cityCode;
 
 #include <TFT_eSPI.h> //tft显示屏功能
 #include <SPI.h>
 #include <EEPROM.h> //带电可擦除可编程只读存储器
 #include <TJpg_Decoder.h> //JPG图像显示库
-/*使用Tjpg_Decoder库创建C数组图片的网址: http://tom为eko.net/online_tools/file_to_hex.php?lang=en*/
+//使用Tjpg_Decoder库创建C数组图片的网址: http://tomeko.net/online_tools/file_to_hex.php?lang=en 
 
 #include <WiFi.h> //使用WiFi功能
 #include <WiFiUdp.h>
@@ -32,6 +32,7 @@ String PrefSSID, PrefPassword, City;
 #include "../img/love.h"
 #include "../img/dancing.h"
 #include "../img/battery.h"
+#include "../img/star.h"
 
 /*基础配置*/
 #define Baudrate 115200 //定义串口波特率
@@ -47,7 +48,6 @@ TFT_eSprite clk = TFT_eSprite(&tft);
 
 uint32_t targetTime = 0;   
 uint16_t bgColor = 0xFFFF;      //屏幕背景色
-String cityCode = "101230201";  //天气城市代码
 
 //NTP服务器
 static const char ntpServerName[] = "ntp6.aliyun.com";
@@ -697,6 +697,7 @@ void setup(){
   preferences.begin("wifi", false);
   PrefSSID =  preferences.getString("ssid", "none");
   PrefPassword =  preferences.getString("password", "none");
+  cityCode = preferences.getString("citycode", "none");
   preferences.end();
   if( PrefSSID == "none" ){
     setWiFi();
@@ -739,6 +740,8 @@ void setup(){
   TJpgDec.setCallback(tft_output);
 
   delay(1000);
+  TJpgDec.drawJpg(0,0,star,sizeof(star));
+  delay(2000);
 
   tft.fillScreen(0x0000);
   tft.fillRoundRect(0,0,240,240,0,bgColor);//实心矩形
