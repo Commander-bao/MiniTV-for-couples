@@ -9,7 +9,7 @@
 最新版本的外壳文件在3D Model文件夹下，需要注意的是：如果不使用fdm打印机而使用光固化打印机，请选择高精度文件
 ![](Images/3DModel1.jpg)![](Images/3DModel2.jpg)
 ## 2.固件编译说明
-本项目基于VSCode上的PlatformIO插件开发，工程文件放置在Software文件夹下，复制到自己本地的PlatformIO工程目录下即可打开
+本项目基于VSCode上的PlatformIO插件开发，工程文件压缩包为Software.zip文件，解压后复制到自己本地的PlatformIO工程目录下即可打开
 ![](Images/Code.jpg)
 编译生成的固件以及其他相应固件在Firmware文件夹下，可通过乐鑫官方的烧录软件进行烧录
 ## 3.元件采购说明
