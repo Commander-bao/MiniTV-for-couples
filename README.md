@@ -14,7 +14,12 @@
 编译生成的固件以及其他相应固件在Firmware文件夹下，可通过乐鑫官方的烧录软件进行烧录
 ## 3.元件采购说明
 绝大部分的元器件都可以在立创商城购买到，**注意原理图中的AMS1117芯片要换成BL9110芯片**  
-本人采购的电池型号为602530，嘉立创上买不到的元器件可以参考以下链接购买：[显示屏链接](https://item.taobao.com/item.htm?id=565306950948&spm=a1z0d.6639537/tb.1997196601.183.3c317484soud9F&skuId=4731850057790) [Type-c链接](https://item.taobao.com/item.htm?id=573090887123&spm=a1z0d.6639537/tb.1997196601.4.3c317484soud9F) [主控芯片链接](https://item.taobao.com/item.htm?id=634424428305&skuId=4543431189229&spm=a1z0d.6639537/tb.1997196601.12.3c317484soud9F) [FPC连接器链接](https://item.taobao.com/item.htm?id=552629356951&spm=a1z0d.6639537/tb.1997196601.20.3c317484soud9F&skuId=4983175264945) [滑动开关链接](https://item.taobao.com/item.htm?id=569513203579&spm=a1z0d.6639537/tb.1997196601.261.3c317484soud9F)  
+本人采购的电池型号为602530，嘉立创上买不到的元器件可以参考以下链接购买：
+- 显示屏链接：https://item.taobao.com/item.htm?id=565306950948&spm=a1z0d.6639537/tb.1997196601.183.3c317484soud9F&skuId=4731850057790  
+- Type-c链接：https://item.taobao.com/item.htm?id=573090887123&spm=a1z0d.6639537/tb.1997196601.4.3c317484soud9F  
+- 主控芯片链接：https://item.taobao.com/item.htm?id=634424428305&skuId=4543431189229&spm=a1z0d.6639537/tb.1997196601.12.3c317484soud9F  
+- FPC连接器链接：https://item.taobao.com/item.htm?id=552629356951&spm=a1z0d.6639537/tb.1997196601.20.3c317484soud9F&skuId=4983175264945  
+- 滑动开关链接：https://item.taobao.com/item.htm?id=569513203579&spm=a1z0d.6639537/tb.1997196601.261.3c317484soud9F  
 ## 4.产品使用说明
 （1.x版本）  
 1.左侧的开关控制小电视开关机，仅关机状态可充电，开机状态可烧录  
