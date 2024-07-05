@@ -15,7 +15,7 @@
 ## 3.元件采购说明
 绝大部分的元器件都可以在立创商城购买到，**注意原理图中的AMS1117芯片要换成BL9110芯片**  
 本人采购的电池型号为602530，嘉立创上买不到的元器件可以参考以下链接购买：
-- 显示屏链接：https://item.taobao.com/item.htm?id=565306950948&spm=a1z0d.6639537/tb.1997196601.183.3c317484soud9F&skuId=4731850057790  
+- 显示屏链接：https://item.taobao.com/item.htm?id=565306950948&spm=a1z0d.6639537/tb.1997196601.183.3c317484soud9F&skuId=4731850057792  
 - Type-c链接：https://item.taobao.com/item.htm?id=573090887123&spm=a1z0d.6639537/tb.1997196601.4.3c317484soud9F  
 - 主控芯片链接：https://item.taobao.com/item.htm?id=634424428305&skuId=4543431189229&spm=a1z0d.6639537/tb.1997196601.12.3c317484soud9F  
 - FPC连接器链接：https://item.taobao.com/item.htm?id=552629356951&spm=a1z0d.6639537/tb.1997196601.20.3c317484soud9F&skuId=4983175264945  
